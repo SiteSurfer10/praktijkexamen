@@ -1,0 +1,495 @@
+
+home.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>home</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img{
+    height: 125px;
+    width: 150px;
+}
+
+
+/* Stijl van de header */
+.header {
+  background-color: rgb(230,145,25);
+  padding: 10px;
+  text-align: center;  
+}
+
+/* Stijl van de navigatiebalk */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(240, 102, 10, 0.89);
+}
+
+/* Stijl van de navigatieknoppen */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* kleur van de hoover-kleur */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(11, 17, 11);
+}
+
+/* Creatie van twee ongelijke kolommen welke langs elkaar staan */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* linkse kolom */
+.column.left {
+  width: 25%;
+  height: 675px;
+  background-color: chocolate;
+}
+
+/* rechtse kolom */
+.column.right {
+  width: 75%;
+  height: 675px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+  .column.left, .column.right {
+    width: 100%;
+  }
+}
+
+/* Stijl van de footer */
+.footer {
+  background-color: rgb(230,145,25);
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h3 style="color: white;">Muziekschool H&J</h3>
+  <p style="color: white;">Luisterend oor voor talent!</p>
+</div>
+
+<div class="topnav">
+  <a href="home.html">home</a>
+  <a href="over ons.html">over ons</a>
+  <a href="tarieven">tarieven</a>
+  <a href="contact.html">contact</a>
+</div>  
+
+<div class="row">
+  <div class="column left">
+    <h2>Muziekschool</h2>
+    <p>voor koperblazers en saxofonisten</p>
+     <img src="saxofoon.jpeg">    
+    <p>Evenals bij de klarinet, is bij de saxofoon aan de onderkant van het mondstuk een enkel stuk riet bevestigd door middel
+    van een metalen band (de saxofoon hoort dan ook bij de enkelriet-instrumenten).</p>
+    
+    <h2>Toonvorming</h2>
+    <p>Om geluid uit de saxofoon te krijgen, moet je lucht persen tussen het riet en het mondstuk. Hierdoor breng je het riet
+    in trilling en wordt een toon gemaakt. Kleppen zorgen ervoor dat de gaten, die in de buis van het instrument zijn
+    geboord, afgesloten kunnen worden. Door het indrukken of loslaten van deze kleppen, kun je op dit instrument
+    verschillende tonen maken.</p>    
+  </div>
+  
+  <div class="column right">
+    <h2>Welkom bij muziekschool H&J</h2>
+    <p>Muziekschool voor koperblazers en saxofonisten</p>
+    <img src="trompet.jpeg">
+    <p>Zou het niet leuk zijn als je een saxofoon, trompet of een ander blaasinstrument zou kunnen bespelen? Dat vergt niet alleen veel oefening,
+     maar het is ook belangrijk dat je daarbij de juiste hulp en ondersteuning krijgt. Hannah en Jesse, de muzikanten achter deze muziekschool, kunnen jou die
+      ondersteuning geven. Ze zijn beiden afgestudeerd aan het conservatorium en hebben veel ervaring met het geven van muziekles.</p> 
+    <p>De lessen worden gegeven in een prachtig en functioneel pand, waarin je ongestoord je gang kunt gaan. Ideaal om naar hartenlust te oefenen, zowel individueel als in groepsverband.</p>
+    </p>
+    <h2>Specialisatie</h2>
+    <p>Muziekschool H&J is gespecialiseerd in jazzmuziek.</p>
+    <img src="saxofoon2.jpeg">
+    <p>Veel muziekscholen richten zich op klassieke muziek. Bij Hannah en Jesse kun je echter ook les krijgen in jazzmuziek.
+    Zoals je misschien weet, zijn koperblazers en saxofonisten een zeer belangrijk onderdeel bij jazz. Hannah en Jesse zijn
+    grote jazzliefhebbers en hebben zich hierin gespecialiseerd.</p>
+    <p>Op deze website vind je veel informatie over wat deze muziekschool te bieden heeft, maar je kunt natuurlijk altijd
+    vrijblijvend langskomen om meer informatie te krijgen. Je kunt dan ook kennismaken en kijken of je een klik hebt met
+    Hannah en/of Jesse.</p>
+  </div>
+  
+</div>
+
+<div class="footer">
+  <p>© Copyright 2021 Muziekschool H&J</p>
+</div>
+  
+</body>
+</html>
+
+
+===================================================
+
+overons.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>over ons</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img{
+    height: 125px;
+    width: 150px;
+}
+
+
+/* Stijl van de header */
+.header {
+  background-color: rgb(230,145,25);
+  padding: 10px;
+  text-align: center;  
+}
+
+/* Stijl van de navigatiebalk */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(240, 102, 10, 0.89);
+}
+
+/* Stijl van de navigatieknoppen */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* kleur van de hoover-kleur */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(11, 17, 11);
+}
+
+/* Creatie van twee ongelijke kolommen welke langs elkaar staan */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* linkse kolom */
+.column.left {
+  width: 25%;
+  height: 675px;
+  background-color: chocolate;
+}
+
+/* rechtse kolom */
+.column.right {
+  width: 75%;
+  height: 675px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+  .column.left, .column.right {
+    width: 100%;
+  }
+}
+
+/* Stijl van de footer */
+.footer {
+  background-color: rgb(230,145,25);
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h3 style="color: white;">Muziekschool H&J</h3>
+  <p style="color: white;">Luisterend oor voor talent!</p>
+</div>
+
+<div class="topnav">
+  <a href="home.html">home</a>
+  <a href="over ons.html">over ons</a>
+  <a href="tarieven">tarieven</a>
+  <a href="contact.html">contact</a>
+</div>  
+
+<div class="row">
+  <div class="column left">
+    <h2>Muziekschool voor iedereen!</h2>
+     <img src="kind.jpeg">    
+    <p>Voor een musicus zoals Jesse is het lastig om dat volledig professioneel te doen. Zijn ervaring op de muziekschool
+    bracht hem op het idee een eigen school te beginnen. Jesse zag dat Hannah lesgeven ook geweldig goed kon, dus vroeg hij
+    haar om mee te doen. Ze vonden een mooi pand en ze startten met veel enthousiasme de muziekschool. En daar heeft hij
+    nooit spijt van gekregen! Bij Jesse en Hannah is het leuk én leerzaam!</p> 
+   </div>
+  
+  <div class="column right">
+    <h2 style="color: rgb(230,145,25);">Hannah</h2>
+    <p>docente Muziek</p>
+    <img src="hannah.jpeg" style="float: right;">
+    <p>Hannah is een vrolijke, goedlachse vrouw van 39 jaar. Ze is de vriendin van Jesse. Hannah is al van jongs af aan
+    geïnteresseerd in veel verschillende muziekstijlen. Haar ouders hebben het met de paplepel ingegoten. Langzamerhand werd
+    de trompet echter haar favoriete instrument. Ze speelde op school en had al jong optredens in buurthuizen, op
+    braderieën, enzovoorts.
+    
+    Hannah volgde zelf vanaf haar zesde jaar les op de muziekschool. Vanwege haar talent kreeg zij later privéles. Op de
+    middelbare school besteedde ze veel aandacht aan haar studie en de muziek schoot er een beetje bij in. Maar toen ze haar
+    diploma had behaald, was het conservatorium een logische keus. Ook op het conservatorium viel haar talent op. Ze werd
+    gevraagd voor het studentenorkest en speelde in haar vrije in een jazzband. Daar ontmoette zij Jesse. Gedurende haar
+    studietijd kwamen medestudenten regelmatig naar haar toe met het verzoek om hulp. Dat waren niet alleen
+    trompetstudenten, maar ook studenten die andere blaasinstrumenten bespeelden. Hannah merkte dat bijles geven haar heel
+    goed afging en dat ze het ontzettend leuk vond.
+    
+    Toen Jesse met het idee kwam om samen een muziekschool te beginnen, hoefde Hannah niet lang na te denken. Het was dé
+    manier om van haar hobby haar beroep te maken en om muziek maken te combineren met lesgeven. Bij Hannah zijn jong en oud
+    in goede handen!
+</p> 
+
+    <h2 style="color: rgb(230,145,25);">Jesse</h2>
+    <p>docent Muziek</p>
+
+    <img src="jesse.jpeg" style="float: left;">
+    <p>Jesse is een zeer muzikale man van 41 jaar. Hij is de vriend van Hannah. In tegenstelling tot Hannah was hij als jonge
+    jongen niet erg geïnteresseerd in muziek en al helemaal niet in muziek maken. Hij ging liever buiten spelen met zijn
+    vriendjes of voetballen in het park. Zijn ouders vonden het echter wel belangrijk dat hij kennisnam van muziek en ze
+    stuurden Jesse naar blokfluitles. Daar leerde hij de beginselen en leerde hij noten lezen.
+    
+    Opleiding
+    
+    Op de middelbare school was al duidelijk hoe talentvol hij was. Daarom ging hij naar het conservatorium, waar hij Hannah
+    ontmoette. Hij richtte zich op vele verschillende instrumenten en werd opgeleid tot een allround musicus. Maar zijn
+    liefde voor de saxofoon en jazz bleef. Als bijbaantje gaf hij ook les op een muziekschool en ook dat ging hem goed af.
+</p>
+  </div>
+  
+</div>
+
+<div class="footer">
+  <p>© Copyright 2021 Muziekschool H&J</p>
+</div>
+  
+</body>
+</html>
+
+
+==========================================================================================================
+
+
+
+tarieven.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>tarieven</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        img {
+            height: 125px;
+            width: 150px;
+        }
+
+
+        /* Stijl van de header */
+        .header {
+            background-color: rgb(230, 145, 25);
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Stijl van de navigatiebalk */
+        .topnav {
+            overflow: hidden;
+            background-color: rgba(240, 102, 10, 0.89);
+        }
+
+        /* Stijl van de navigatieknoppen */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* kleur van de hoover-kleur */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: rgb(11, 17, 11);
+        }
+
+        /* Creatie van twee ongelijke kolommen welke langs elkaar staan */
+        .column {
+            float: left;
+            padding: 10px;
+        }
+
+        /* linkse kolom */
+        .column.left {
+            width: 25%;
+            height: 675px;
+            background-color: chocolate;
+        }
+
+        /* rechtse kolom */
+        .column.right {
+            width: 75%;
+            height: 675px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout */
+        @media screen and (max-width: 600px) {
+
+            .column.left,
+            .column.right {
+                width: 100%;
+            }
+        }
+
+        /* Stijl van de footer */
+        .footer {
+            background-color: rgb(230, 145, 25);
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h3 style="color: white;">Muziekschool H&J</h3>
+        <p style="color: white;">Luisterend oor voor talent!</p>
+    </div>
+    <div class="topnav">
+        <a href="home.html">home</a>
+        <a href="over ons.html">over ons</a>
+        <a href="tarieven">tarieven</a>
+        <a href="contact.html">contact</a>
+    </div>
+    <div class="row">
+        <div class="column left">
+            <h2>Tarieven</h2>
+            <p>Individuele les: € 30,- per half uur.
+
+                <hr class="solid">
+                Groepsles: Dezelfde prijs per persoon (dus € 30,- gedeeld door het aantal deelnemers).
+
+                <hr class="solid">
+                Groepsles kinderen: € 10,- per uur.
+
+            </p>
+        </div>
+        <div class="column right">
+            <h2 style="color: rgb(230,145,25);">Voorwaarden</h2>
+            <p>Algemene voorwaarden - Muziekschool H&J</p>
+            <p>Artikel 1: Inschrijving
+
+                <hr class="solid">
+                U kunt zich inschrijven door u aan te melden bij het bureau van de muziekschool en het
+                inschrijfformulier te
+                ondertekenen.
+            </p>
+            <p>Artikel 2: Duur cursusjaar
+
+                <hr class="solid">
+                Het cursusjaar loopt van 1 september tot en met 30 juni van het volgend jaar.
+            </p>
+            <p>Artikel 3: Uitschrijving
+
+                <hr class="solid">
+                Tussentijdse beëindiging/opzegging is uitsluitend mogelijk na een schriftelijk verzoek.
+
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© Copyright 2021 Muziekschool H&J</p>
+    </div>
+</body>
+
+</html>
+
+
+
+======================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
